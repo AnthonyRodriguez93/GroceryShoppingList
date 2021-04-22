@@ -56,10 +56,10 @@ body {
 }
 
 
-/* 
-@media only screen and (max-width: 500px) {
+
+@media only screen and (max-width: 499px) {
   .container {
   font-size: 65px;
   }
 }
- */
+
