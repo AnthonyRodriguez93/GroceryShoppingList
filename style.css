@@ -1,20 +1,21 @@
-/* html, body {
+html, body {
   height: 100%;
   width: 100%;
-} */
+}
 
 
 
 
 body {
   /* margin: 0 0 0 -80px; */
-  display: flex;
-  flex-wrap: nowrap;
-  align-content: center;
-  align-items: center;
+  /* display: flex; */
+  /* flex-wrap: nowrap; */
+  /* align-content: center; */
+  /* align-items: center; */
   font-size: 40px;
-  justify-content: center;
-  flex-direction: row;
+  /* overflow: hidden; */
+  /* justify-content: center;  */
+  /* flex-direction: row;  */
 }
 
 button {
@@ -24,13 +25,15 @@ button {
 
 
 .container {
+  /* height: 100%; */
   margin: auto;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-content: center;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+  /* overflow: hidden; */
   /* padding-top: 120px;  */
 }
 
@@ -62,24 +65,16 @@ button {
 }
 
 
-#userinput {
-  height: 50px;
-}
-
-@media only screen and (max-width: 499px) {
-  .container {
-  font-size: 65px;
-  }
-}
-
 @media only screen and (max-width: 361) {
-  /* body {
-    font-size: 80px;
-  } */
+  body {
+    font-size: 16px;
+  }
 
-  container {
+  /* container {
     padding: 0;
     font-size: 1.5rem;
+    height: 70%; 
+    font-size: 2rem;
   }
 
   /* html, body {
